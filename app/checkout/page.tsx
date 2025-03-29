@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useCartStore } from "@/store/cart-store"
 import { checkoutAction } from "./checkout-action"
 
-export default function checkoutPage(){
+export default function CheckoutPage(){
     const {items,addItem,removeItem} = useCartStore()
     const total = items.reduce((acc,item) => acc + (item.price * item.quantity),0)
 

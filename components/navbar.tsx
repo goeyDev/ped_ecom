@@ -1,7 +1,6 @@
 "use client"
 import { useCartStore } from "@/store/cart-store";
 import { Bars3Icon, ShoppingCartIcon, XMarkIcon} from "@heroicons/react/24/outline";
-import { Span } from "next/dist/trace";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
